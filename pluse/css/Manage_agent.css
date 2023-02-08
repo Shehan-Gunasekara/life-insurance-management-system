@@ -1,0 +1,55 @@
+.region-main2{
+    
+    padding: 200px 0px 0px 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 12%;
+}
+@keyframes moveup {
+    100% {
+      transform: translateY(-100px);
+      visibility: visible;
+    }
+  
+    0% {
+      transform: translateY(70px);
+      visibility: visible;
+    }
+  }
+.button{
+	width :45%;
+	height :168px;
+ 	text-align : center;
+ 	border : 1px solid #555;
+ 	border-radius :5px ;
+ 	background-color : #25375977;
+ 	box-shadow: 0 15px 20px rgba(0,0,0.5);
+ 	text-align : center;
+ 	font-weight:bold;
+ 	font-family: "Times New Roman", Times, serif;
+     font-size:25px;
+ 	animation: moveup 3s linear 0.5;
+ 
+}
+
+.button1{
+ 	
+ 	top : 0px;
+ 	left : 80px;
+ 	position : relative ;	
+}
+
+.button2{
+
+    top : 250px;
+    left : 250px;
+    position : relative ;
+
+    
+}
+
+.button1:hover{
+	transform : scale(.95);
+}
+.button2:hover{
+	transform : scale(.95);
+}

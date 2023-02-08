@@ -1,0 +1,81 @@
+#bod{
+
+	background-image: url("../images/contact_us.PNG");
+	background-size: 100% 100%;
+	height: 700px;
+	content: " ";
+	margin : 0px ;
+	margin-top: 0px;
+
+}
+
+.form{
+  float:left;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+  margin-right: 50px;
+}
+
+hr1 {
+  border-top: 3px solid black;
+}
+
+#bod h1{
+	color: rgb(27, 12, 12);
+	margin:0;
+	font-size : 50px;
+}
+h2{
+	color: white;
+	font-size: 30px;
+}
+
+ h4{
+	background-color: rgba(254, 250, 250, 0.575);
+	width : 350px;
+}
+
+.text{
+  font-size: 20px;
+  color: #717171;
+
+}
+
+
+.col2{
+	padding: 10px 190px;
+	border: none;
+	cursor: pointer;
+}
+
+.submit{
+	background-color:#458595;
+	color: white;
+	padding: 10px 50px;
+	border: none;
+	cursor: pointer;
+}
+
+.submit:hover{
+	background-color: #333;
+}
+
+  .tab{
+	text-align: center;
+	width:3000px
+  }
+
+  .tab2{
+	text-align: center;
+	width : 2000px
+
+  }
+  
+.fa-fa-ic-text{
+	font-size: 20px;
+	color: #4b0a1a;
+	
+  }
+  

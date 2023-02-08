@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.navbar{
+   
+   
+    
+    overflow: hidden;
+    background-color: rgb(88, 88, 88);
+    padding: 10px 10px;
+    font-size: 10px;
+    border: none;
+    font-size: 17px;
+    margin-left: 0px;
+    width : 100%;
+
+}
+
+.navbar input[type=text]{
+    float:right;
+    padding: 20px;
+    margin-top: 0px;
+    margin-right:0px ;
+    font-size: 15px;
+}
+.logo{
+    float:left;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 30px 10px 0px 0px;
+    overflow: hidden;
+    background-color: rgb(88, 88, 88);
+    float:left;
+}
+
+.active{
+    background-color: blue;
+}
+
+
+
+footer{
+    padding: 30px;
+    background-color: #302f2c;
+    color: white;
+    margin: 0px;
+}
+
+.column{
+    float:left;
+   text-align: left;
+    width : 33.33%;
+    padding: 0px;
+   
+}
+
+.qlinks{
+    text-decoration: none;
+    color: white;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-logo{
+    display: block;
+    float: left;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    padding: 20px 2px;
+}
+
+body{
+    background-color: #EEEEFF;
+}
